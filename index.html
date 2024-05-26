@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <style>
+      ul.dog-breeds {
+        width: 200px;
+      }
+
+      .dog-image {
+        max-height: 25%;
+        max-width: 25%;
+      }
+
+      .breed-name {
+        color: #303030;
+        cursor: pointer;
+      }
+
+      .breed-name.colour {
+        color: darkmagenta;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
     <meta charset="utf-8">
     <title>Intro to AJAX Practice Tasks</title>
     <script src="src/index.js" charset="utf-8"></script>
@@ -9,7 +30,6 @@
     <h1>Dog CEO</h1>
 
     <div id="dog-image-container">
-      <!-- images here -->
     </div>
 
     <hr>
@@ -22,7 +42,6 @@
     </select>
 
     <ul id="dog-breeds">
-
     </ul>
 
   </body>
